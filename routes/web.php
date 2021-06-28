@@ -13,7 +13,5 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-// Route::get('/', function () {
-//     return view('welcome');
-// });
-Route::get('/', 'TopController@top')->name('top');
+// ホーム画面
+Route::get('/', 'HomeController@index')->name('home');

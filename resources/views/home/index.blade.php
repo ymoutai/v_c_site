@@ -1,13 +1,12 @@
 @extends('layouts.base')
 
 @section('title')
-test
+※タイトル
 @endsection
 
 @section('content')
 
-<main>
-  
+<main class="container">
 </main>
 
 @endsection
